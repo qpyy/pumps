@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { Navigate, Route, Routes } from "react-router-dom";
 import PumpSelection from "./pages/PumpSelection";
 import Result from "./pages/Result";
 
@@ -7,6 +7,7 @@ function App() {
     <Routes>
       <Route path="/" element={<PumpSelection />} />
       <Route path="/results" element={<Result />} />
+      <Route path="*" element={<Navigate to="/" />} />
     </Routes>
   );
 }
