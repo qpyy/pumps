@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const StyledButton = styled.button`
-  background-color: ${({ bgColor }) => bgColor || "#3d5088"};
+  background-color: ${({ $bgColor }) => $bgColor || "#3d5088"};
   border: 1px solid ${({ borderColor }) => borderColor || "#3d5088"};
   color: ${({ color }) => color || "#ffffff"};
   font-size: ${({ fontSize }) => fontSize || "13px"};
@@ -16,7 +16,7 @@ const StyledButton = styled.button`
   transition: background-color 0.3s ease;
 
   &:hover {
-    background-color: ${({ hoverBgColor }) => hoverBgColor || "#465c9d"};
+    background-color: ${({ $hoverBgColor }) => $hoverBgColor || "#465c9d"};
   }
 
   &:disabled {

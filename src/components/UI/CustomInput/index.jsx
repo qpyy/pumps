@@ -18,7 +18,7 @@ const CustomInput = ({
       <div>
         <StyledInput
           type={inputType}
-          maxWidth={maxWidth}
+          $maxWidth={maxWidth}
           name={name}
           onChange={handleChangeInput}
         />

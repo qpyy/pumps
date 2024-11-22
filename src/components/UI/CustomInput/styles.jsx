@@ -43,8 +43,13 @@ const StyledInput = styled.input`
   font-size: 13px;
   padding: 8px 13px 7px;
   width: 100%;
-  max-width: ${({ maxWidth }) => maxWidth || "100%"};
+  max-width: ${({ $maxWidth }) => $maxWidth || "100px"};
   outline: none;
+  transition: border-color 0.3s ease;
+
+  &:focus {
+    border-color: #465c9d;
+  }
 `;
 
 export { StyledCustomInputWrapper, StyledInput, StyledUnits, StyledLabel };

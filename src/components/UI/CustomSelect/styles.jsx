@@ -29,9 +29,10 @@ const StyledSelect = styled.select`
   outline: none;
   appearance: none;
   margin-right: 38px;
+  transition: border-color 0.3s ease;
 
   &:focus {
-    border-color: #cccccc;
+    border-color: #465c9d;
   }
 `;
 

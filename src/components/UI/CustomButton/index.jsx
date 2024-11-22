@@ -21,7 +21,7 @@ const CustomButton = ({
     <StyledButton
       onClick={onClick}
       disabled={disabled}
-      bgColor={bgColor}
+      $bgColor={bgColor}
       borderColor={borderColor}
       color={color}
       fontSize={fontSize}
@@ -31,7 +31,7 @@ const CustomButton = ({
       borderRadius={borderRadius}
       padding={padding}
       margin={margin}
-      hoverBgColor={hoverBgColor}
+      $hoverBgColor={hoverBgColor}
       {...props}
     >
       {children}

@@ -58,7 +58,7 @@ const AdditionalOptions = () => {
             labelText="Производительность"
             required={true}
             measurementUnits="м3/ч"
-            maxWidth="100px"
+            $maxWidth="100px"
             handleChangeInput={handleInputChange}
             name="q"
             inputType="number"
@@ -67,7 +67,7 @@ const AdditionalOptions = () => {
             labelText="Напор"
             required={true}
             measurementUnits="м"
-            maxWidth="100px"
+            $maxWidth="100px"
             handleChangeInput={handleInputChange}
             name="h"
             inputType="number"
@@ -82,7 +82,7 @@ const AdditionalOptions = () => {
           <CustomButtonWrapper>
             <CustomButton
               onClick={handleNavigateToResult}
-              bgColor="#3d5088"
+              $bgColor="#3d5088"
               hoverBgColor="#465c9d"
               padding="12.5px 94px"
             >
