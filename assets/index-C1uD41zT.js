@@ -396,4 +396,4 @@ Error generating stack: `+o.message+`
       border-right: none;
     }
   }
-`,l1=()=>R.jsxs(r1,{children:[R.jsx(Bg,{}),R.jsx(n1,{}),R.jsx(Dg,{})]}),o1=()=>{const[e]=Qn(),t=Object.fromEntries(e.entries());return R.jsxs("div",{children:[R.jsx("h1",{children:"Результат"}),R.jsx("pre",{children:JSON.stringify(t,null,2)})]})};function i1(){return R.jsxs(v0,{children:[R.jsx(Pl,{path:"/",element:R.jsx(l1,{})}),R.jsx(Pl,{path:"/results",element:R.jsx(o1,{})}),R.jsx(Pl,{path:"*",element:R.jsx(m0,{to:"/"})})]})}hd(document.getElementById("root")).render(R.jsx(x0,{children:R.jsx(i1,{})}));
+`,l1=()=>R.jsxs(r1,{children:[R.jsx(Bg,{}),R.jsx(n1,{}),R.jsx(Dg,{})]}),o1=()=>{const[e]=Qn(),t=Object.fromEntries(e.entries());return R.jsxs("div",{children:[R.jsx("h1",{children:"Результат"}),R.jsx("pre",{children:JSON.stringify(t,null,2)})]})};function i1(){return R.jsxs(v0,{children:[R.jsx(Pl,{path:"/pumps",element:R.jsx(l1,{})}),R.jsx(Pl,{path:"/results",element:R.jsx(o1,{})}),R.jsx(Pl,{path:"*",element:R.jsx(m0,{to:"/pumps"})})]})}hd(document.getElementById("root")).render(R.jsx(x0,{children:R.jsx(i1,{})}));
